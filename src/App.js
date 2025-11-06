@@ -1,11 +1,11 @@
 import React from 'react';
-// Import your components, e.g., import OurTeam from './components/OurTeam';
-// Add routes if using React Router
+import OurTeam from './components/OurTeam';  // Add this line (imports your new component)
 
 function App() {
   return (
     <div className="App">
-      {/* Your site content, e.g. <OurTeam /> */}
+      <OurTeam />  {/* Add this line - renders the yellow box */}
+      {/* Add other components here, e.g. <Header />, <Footer /> */}
     </div>
   );
 }
