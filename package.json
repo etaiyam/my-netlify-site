@@ -7,7 +7,7 @@
     "react-redux": "^8.1.0",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
-    "@reduxjs/toolkit": "^2.0.0"  // Add this line
+    "@reduxjs/toolkit": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
