@@ -1,17 +1,18 @@
 import React from 'react';
-import OurTeam from './components/OurTeam';  // Your updated component
-// Add other imports (create stubs if missing)
-import Header from './components/Header';  // e.g., your nav bar
-import Services from './components/Services';  // e.g., services section
-import Footer from './components/Footer';  // e.g., footer
+import OurTeam from './components/OurTeam';  // Your updated text component
+
+// Add these if missing (create stub files as below)
+import Header from './components/Header';  // Nav bar
+import Services from './components/Services';  // Services section
+import Footer from './components/Footer';  // Footer
 
 function App() {
   return (
     <div className="App">
-      <Header />  {/* Nav/Header */}
-      <OurTeam />  {/* Your yellow box section */}
-      <Services />  {/* Other sections */}
-      <Footer />  {/* Footer */}
+      <Header />  {/* Top nav */}
+      <OurTeam />  {/* Your section with new text */}
+      <Services />  {/* Other content */}
+      <Footer />  {/* Bottom */}
     </div>
   );
 }
