@@ -1,11 +1,17 @@
 import React from 'react';
-import OurTeam from './components/OurTeam';  // Add this line (imports your new component)
+import OurTeam from './components/OurTeam';  // Your updated component
+// Add other imports (create stubs if missing)
+import Header from './components/Header';  // e.g., your nav bar
+import Services from './components/Services';  // e.g., services section
+import Footer from './components/Footer';  // e.g., footer
 
 function App() {
   return (
     <div className="App">
-      <OurTeam />  {/* Add this line - renders the yellow box */}
-      {/* Add other components here, e.g. <Header />, <Footer /> */}
+      <Header />  {/* Nav/Header */}
+      <OurTeam />  {/* Your yellow box section */}
+      <Services />  {/* Other sections */}
+      <Footer />  {/* Footer */}
     </div>
   );
 }
