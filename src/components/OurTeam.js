@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// Import Redux hook if needed: import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';  // Add this line to fix "useSelector is not defined"
 
 const OurTeam = () => {
   const [text, setText] = useState('');
